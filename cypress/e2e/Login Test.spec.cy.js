@@ -48,7 +48,7 @@ describe('Login Test for Saucedemo', () => {
       cy.contains('Products')
     })
 
-    it.skip('Test for visual_user', () =>{
+    it('Test for visual_user', () =>{
       cy.visit('/')
       cy.TypeTextCommand(homepageElements.usernameField, 'visual_user')
       cy.TypeTextCommand(homepageElements.passwordField, 'secret_sauce' )
