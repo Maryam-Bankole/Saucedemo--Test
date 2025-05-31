@@ -1,0 +1,21 @@
+{
+    "homepage":
+    {
+        "usernameField":"[data-test='username']",
+        "passwordField":"#password",
+        "loginbuttonField":"#login-button"
+    }
+
+
+}
+ 
+ 
+ 
+
+
+
+
+
+
+
+
